@@ -343,23 +343,11 @@ rect -3378 -19536 -3284 -19531
 rect -3658 -19616 -3368 -19536
 rect -3294 -19616 -918 -19536
 rect -3378 -19621 -3284 -19616
-use sky130_fd_pr__nfet_01v8_U85QGS  XM1
-timestamp 1644523392
-transform 1 0 -2728 0 1 -19595
-box -646 -410 646 410
-use sky130_fd_pr__pfet_g5v0d10v5_B24TY6  XM5
-timestamp 1644523392
-transform 1 0 -1606 0 1 -16055
-box -624 -496 624 496
-use sky130_fd_pr__pfet_g5v0d10v5_B24TY6  XM6
-timestamp 1644523392
-transform -1 0 -2664 0 1 -16055
-box -624 -496 624 496
-use sky130_fd_pr__nfet_01v8_U85QGS  sky130_fd_pr__nfet_01v8_U85QGS_0
+use sky130_fd_pr__nfet_01v8_U85QGS  sky130_fd_pr__nfet_01v8_U85QGS_0 paramcells
 timestamp 1644523392
 transform 1 0 -1542 0 1 -19595
 box -646 -410 646 410
-use sky130_fd_pr__nfet_05v0_nvt_ARHMTT  sky130_fd_pr__nfet_05v0_nvt_ARHMTT_0
+use sky130_fd_pr__nfet_05v0_nvt_ARHMTT  sky130_fd_pr__nfet_05v0_nvt_ARHMTT_0 paramcells
 timestamp 1644523392
 transform 1 0 -2934 0 1 -17882
 box -794 -1258 794 1258
@@ -367,6 +355,18 @@ use sky130_fd_pr__nfet_05v0_nvt_ARHMTT  sky130_fd_pr__nfet_05v0_nvt_ARHMTT_1
 timestamp 1644523392
 transform 1 0 -1364 0 1 -17882
 box -794 -1258 794 1258
+use sky130_fd_pr__nfet_01v8_U85QGS  XM1
+timestamp 1644523392
+transform 1 0 -2728 0 1 -19595
+box -646 -410 646 410
+use sky130_fd_pr__pfet_g5v0d10v5_B24TY6  XM5 paramcells
+timestamp 1644523392
+transform 1 0 -1606 0 1 -16055
+box -624 -496 624 496
+use sky130_fd_pr__pfet_g5v0d10v5_B24TY6  XM6
+timestamp 1644523392
+transform -1 0 -2664 0 1 -16055
+box -624 -496 624 496
 << labels >>
 rlabel metal3 -3658 -19436 -978 -19356 1 in_n
 port 2 n

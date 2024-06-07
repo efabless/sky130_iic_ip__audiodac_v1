@@ -2971,11 +2971,11 @@ rect 3798 -19915 5638 -19910
 rect 26 -20782 52 -20468
 rect 3278 -20782 3354 -20468
 rect 26 -20810 3354 -20782
-use sky130_fd_pr__nfet_g5v0d10v5_8WF6SK  sky130_fd_pr__nfet_g5v0d10v5_8WF6SK_1
+use sky130_fd_pr__nfet_g5v0d10v5_8WF6SK  sky130_fd_pr__nfet_g5v0d10v5_8WF6SK_1 paramcells
 timestamp 1644523392
 transform 1 0 -4881 0 1 -17890
 box -988 -1258 988 1258
-use sky130_fd_pr__nfet_g5v0d10v5_GYVFE6  sky130_fd_pr__nfet_g5v0d10v5_GYVFE6_0
+use sky130_fd_pr__nfet_g5v0d10v5_GYVFE6  sky130_fd_pr__nfet_g5v0d10v5_GYVFE6_0 paramcells
 timestamp 1644523392
 transform 1 0 1105 0 1 -18995
 box -988 -2366 988 2366
@@ -2995,23 +2995,23 @@ use sky130_fd_pr__nfet_g5v0d10v5_GYVFE6  sky130_fd_pr__nfet_g5v0d10v5_GYVFE6_4
 timestamp 1644523392
 transform 1 0 3065 0 1 -18995
 box -988 -2366 988 2366
-use sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3  sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3_0
+use sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3  sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3_0 paramcells
 timestamp 1644523392
 transform 1 0 -5280 0 1 -15988
 box -278 -658 278 658
-use sky130_fd_pr__nfet_g5v0d10v5_QABAEG  sky130_fd_pr__nfet_g5v0d10v5_QABAEG_0
+use sky130_fd_pr__nfet_g5v0d10v5_QABAEG  sky130_fd_pr__nfet_g5v0d10v5_QABAEG_0 paramcells
 timestamp 1644523392
 transform 1 0 -4505 0 1 -15888
 box -514 -758 514 758
-use sky130_fd_pr__nfet_g5v0d10v5_RX3AJQ  sky130_fd_pr__nfet_g5v0d10v5_RX3AJQ_0
+use sky130_fd_pr__nfet_g5v0d10v5_RX3AJQ  sky130_fd_pr__nfet_g5v0d10v5_RX3AJQ_0 paramcells
 timestamp 1644523392
 transform 1 0 -5280 0 1 -14990
 box -278 -358 278 358
-use sky130_fd_pr__pfet_g5v0d10v5_3QQKN5  sky130_fd_pr__pfet_g5v0d10v5_3QQKN5_1
+use sky130_fd_pr__pfet_g5v0d10v5_3QQKN5  sky130_fd_pr__pfet_g5v0d10v5_3QQKN5_1 paramcells
 timestamp 1644523392
 transform 1 0 -5262 0 1 -12726
 box -386 -696 386 696
-use sky130_fd_pr__pfet_g5v0d10v5_CYK6CA  sky130_fd_pr__pfet_g5v0d10v5_CYK6CA_0
+use sky130_fd_pr__pfet_g5v0d10v5_CYK6CA  sky130_fd_pr__pfet_g5v0d10v5_CYK6CA_0 paramcells
 timestamp 1644523392
 transform 1 0 1105 0 1 -11927
 box -1019 -4651 1019 4651
@@ -3031,15 +3031,15 @@ use sky130_fd_pr__pfet_g5v0d10v5_CYK6CA  sky130_fd_pr__pfet_g5v0d10v5_CYK6CA_4
 timestamp 1644523392
 transform 1 0 3065 0 1 -11927
 box -1019 -4651 1019 4651
-use sky130_fd_pr__pfet_g5v0d10v5_CYU7F7  sky130_fd_pr__pfet_g5v0d10v5_CYU7F7_0
+use sky130_fd_pr__pfet_g5v0d10v5_CYU7F7  sky130_fd_pr__pfet_g5v0d10v5_CYU7F7_0 paramcells
 timestamp 1644523392
 transform 1 0 -4881 0 1 -9691
 box -1018 -2414 1018 2414
-use sky130_fd_pr__pfet_g5v0d10v5_HKUKAU  sky130_fd_pr__pfet_g5v0d10v5_HKUKAU_0
+use sky130_fd_pr__pfet_g5v0d10v5_HKUKAU  sky130_fd_pr__pfet_g5v0d10v5_HKUKAU_0 paramcells
 timestamp 1644523392
 transform 1 0 -5263 0 1 -13774
 box -386 -362 386 362
-use sky130_fd_pr__pfet_g5v0d10v5_WECJAU  sky130_fd_pr__pfet_g5v0d10v5_WECJAU_0
+use sky130_fd_pr__pfet_g5v0d10v5_WECJAU  sky130_fd_pr__pfet_g5v0d10v5_WECJAU_0 paramcells
 timestamp 1644523392
 transform 1 0 -4407 0 1 -13325
 box -544 -1296 544 1296

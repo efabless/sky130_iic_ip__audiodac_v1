@@ -217,7 +217,7 @@ use jku_logo  jku_logo_0
 timestamp 1645179649
 transform 1 0 -46 0 1 1960
 box 338 0 234514 75214
-use sky130_fd_pr__pfet_g5v0d10v5_VDASXE  sky130_fd_pr__pfet_g5v0d10v5_VDASXE_0
+use sky130_fd_pr__pfet_g5v0d10v5_VDASXE  sky130_fd_pr__pfet_g5v0d10v5_VDASXE_0  paramcells
 timestamp 1644523392
 transform 1 0 221326 0 1 102589
 box -1258 -5797 1258 5797
