@@ -1,0 +1,179 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_05v0_nvt and Circuit 2 cell sky130_fd_pr__nfet_05v0_nvt are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_05v0_nvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_05v0_nvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_05v0_nvt     |Circuit 2: sky130_fd_pr__nfet_05v0_nvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_05v0_nvt and sky130_fd_pr__nfet_05v0_nvt are equivalent.
+
+Class audiodac_drv_latch (0):  Merged 4 parallel devices.
+Subcircuit summary:
+Circuit 1: audiodac_drv_latch              |Circuit 2: audiodac_drv_latch              
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (4->2)        |sky130_fd_pr__nfet_g5v0d10v5 (2)           
+sky130_fd_pr__pfet_g5v0d10v5 (4->2)        |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: audiodac_drv_latch              |Circuit 2: audiodac_drv_latch              
+-------------------------------------------|-------------------------------------------
+in_n                                       |in_n                                       
+in_p                                       |in_p                                       
+vdd_hi                                     |vdd_hi                                     
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes audiodac_drv_latch and audiodac_drv_latch are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_CYU746 in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QABAEG in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_MJGQJ3 in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_RX3AJQ in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_YSH3F7 in circuit audiodac_drv_lite_half (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_QCNVDG in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_WECJAU in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_54K6JW in circuit audiodac_drv_lite_half (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_HKUKAU in circuit audiodac_drv_lite_half (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_3QQKN5 in circuit audiodac_drv_lite_half (0)(1 instance)
+
+Class audiodac_drv_lite_half (0):  Merged 79 parallel devices.
+Subcircuit summary:
+Circuit 1: audiodac_drv_lite_half          |Circuit 2: audiodac_drv_lite_half          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (58->5)       |sky130_fd_pr__pfet_g5v0d10v5 (8->5)        
+sky130_fd_pr__nfet_g5v0d10v5 (31->5)       |sky130_fd_pr__nfet_g5v0d10v5 (6->5)        
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: audiodac_drv_lite_half          |Circuit 2: audiodac_drv_lite_half          
+-------------------------------------------|-------------------------------------------
+out                                        |out                                        
+in                                         |in                                         
+crosscon                                   |crosscon                                   
+vdd_hi                                     |vdd_hi                                     
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes audiodac_drv_lite_half and audiodac_drv_lite_half are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_U85QGS in circuit audiodac_drv_ls (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_B24TY6 in circuit audiodac_drv_ls (0)(2 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_05v0_nvt_ARHMTT in circuit audiodac_drv_ls (0)(2 instances)
+
+Class audiodac_drv_ls (0):  Merged 34 parallel devices.
+Subcircuit summary:
+Circuit 1: audiodac_drv_ls                 |Circuit 2: audiodac_drv_ls                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (20->2)            |sky130_fd_pr__nfet_01v8 (2)                
+sky130_fd_pr__pfet_g5v0d10v5 (10->2)       |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+sky130_fd_pr__nfet_05v0_nvt (10->2)        |sky130_fd_pr__nfet_05v0_nvt (2)            
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Resolving symmetries by property value.
+Resolving symmetries by pin name.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: audiodac_drv_ls                 |Circuit 2: audiodac_drv_ls                 
+-------------------------------------------|-------------------------------------------
+vdd_hi                                     |vdd_hi                                     
+out_p                                      |out_p                                      
+out_n                                      |out_n                                      
+vdd_lo                                     |vdd_lo                                     
+in_n                                       |in_n                                       
+in_p                                       |in_p                                       
+VSUBS                                      |vss_lo **Mismatch**                        
+---------------------------------------------------------------------------------------
+Cell pin lists for audiodac_drv_ls and audiodac_drv_ls altered to match.
+Device classes audiodac_drv_ls and audiodac_drv_ls are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_VDASXE in circuit sky130_iic_ip__audiodac_drv_lite (0)(2 instances)
+
+Class sky130_iic_ip__audiodac_drv_lite (0):  Merged 1 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_iic_ip__audiodac_drv_lit |Circuit 2: sky130_iic_ip__audiodac_drv_lit 
+-------------------------------------------|-------------------------------------------
+audiodac_drv_latch (1)                     |audiodac_drv_latch (1)                     
+audiodac_drv_lite_half (2)                 |audiodac_drv_lite_half (2)                 
+audiodac_drv_ls (1)                        |audiodac_drv_ls (1)                        
+sky130_fd_pr__pfet_g5v0d10v5 (2->1)        |sky130_fd_pr__pfet_g5v0d10v5 (2->1)        
+Number of devices: 5                       |Number of devices: 5                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_iic_ip__audiodac_drv_lit |Circuit 2: sky130_iic_ip__audiodac_drv_lit 
+-------------------------------------------|-------------------------------------------
+in_hi                                      |in_hi                                      
+in_p                                       |in_p                                       
+in_n                                       |in_n                                       
+out_p                                      |out_p                                      
+out_n                                      |out_n                                      
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_iic_ip__audiodac_drv_lite and sky130_iic_ip__audiodac_drv_lite are equivalent.
+
+Final result: Circuits match uniquely.
+.
