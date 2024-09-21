@@ -11,6 +11,11 @@ X6 in_n in_p vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 ad=1.45 pd=10.29 as=2.9 
 X7 vss in_n in_p vss sky130_fd_pr__nfet_g5v0d10v5 ad=1.45 pd=10.58 as=0.725 ps=5.29 w=5 l=0.5
 .ends
 
+.subckt sky130_fd_pr__pfet_g5v0d10v5_VDASXE a_n1058_n5500# a_n1000_n5597# w_n1258_n5797#
++ a_1000_n5500#
+X0 a_1000_n5500# a_n1000_n5597# a_n1058_n5500# w_n1258_n5797# sky130_fd_pr__pfet_g5v0d10v5 ad=15.95 pd=110.58 as=15.95 ps=110.58 w=55 l=10
+.ends
+
 .subckt sky130_fd_pr__nfet_01v8_U85QGS a_62_n200# a_n368_222# a_n224_n200# a_n320_n200#
 + a_398_222# a_n32_n200# a_n508_n200# a_302_n288# a_14_222# a_n464_n288# a_446_n200#
 + a_206_222# a_158_n200# a_110_n288# a_n272_n288# a_254_n200# a_n610_n374# a_n176_222#
@@ -60,11 +65,6 @@ Xsky130_fd_pr__nfet_01v8_U85QGS_0 VSUBS in_n m1_n1994_n18882# VSUBS in_n m1_n199
 + m1_n1994_n18882# VSUBS in_n sky130_fd_pr__nfet_01v8_U85QGS
 Xsky130_fd_pr__nfet_05v0_nvt_ARHMTT_1 m1_n1994_n18882# out_p out_p m1_n1994_n18882#
 + out_p VSUBS vdd_lo vdd_lo m1_n1994_n18882# vdd_lo vdd_lo vdd_lo sky130_fd_pr__nfet_05v0_nvt_ARHMTT
-.ends
-
-.subckt sky130_fd_pr__pfet_g5v0d10v5_VDASXE a_n1058_n5500# a_n1000_n5597# w_n1258_n5797#
-+ a_1000_n5500#
-X0 a_1000_n5500# a_n1000_n5597# a_n1058_n5500# w_n1258_n5797# sky130_fd_pr__pfet_g5v0d10v5 ad=15.95 pd=110.58 as=15.95 ps=110.58 w=55 l=10
 .ends
 
 .subckt sky130_fd_pr__nfet_g5v0d10v5_GYVFE6 a_n502_108# a_30_n2196# a_762_108# a_n344_108#
@@ -302,9 +302,9 @@ Xsky130_fd_pr__nfet_g5v0d10v5_GYVFE6_1 vss drv4 vss out vss drv4 out vss vss drv
 .subckt audiodac_drv in_p in_n out_p out_n vdd in_hi vss
 Xaudiodac_drv_latch_0 audiodac_drv_latch_0/in_p audiodac_drv_latch_0/in_n vdd vss
 + audiodac_drv_latch
+Xsky130_fd_pr__pfet_g5v0d10v5_VDASXE_0 vdd vss vdd vdd sky130_fd_pr__pfet_g5v0d10v5_VDASXE
 Xaudiodac_drv_ls_0 in_p in_n audiodac_drv_half_1/in audiodac_drv_half_0/in vdd in_hi
 + vss audiodac_drv_ls
-Xsky130_fd_pr__pfet_g5v0d10v5_VDASXE_0 vdd vss vdd vdd sky130_fd_pr__pfet_g5v0d10v5_VDASXE
 Xsky130_fd_pr__pfet_g5v0d10v5_VDASXE_1 vdd vss vdd vdd sky130_fd_pr__pfet_g5v0d10v5_VDASXE
 Xaudiodac_drv_half_0 audiodac_drv_half_0/in audiodac_drv_latch_0/in_n out_n vdd vss
 + audiodac_drv_half
