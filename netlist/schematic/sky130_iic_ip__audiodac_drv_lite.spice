@@ -1,0 +1,54 @@
+** sch_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/sky130_iic_ip__audiodac_drv_lite.sch
+.subckt sky130_iic_ip__audiodac_drv_lite out_p vdd in_hi in_p in_n vss out_n
+*.PININFO in_p:I in_n:I out_p:O out_n:O vdd:I in_hi:I vss:I
+x1 vdd drv_p drv_n in_hi in_p in_n vss audiodac_drv_ls
+x2 vdd net1 net2 vss audiodac_drv_latch
+XMdecouple vdd vss vdd vdd sky130_fd_pr__pfet_g5v0d10v5 L=10 W=55 nf=1 m=2
+x5 vdd drv_p out_p vss net1 audiodac_drv_lite_half
+x6 vdd drv_n out_n vss net2 audiodac_drv_lite_half
+.ends
+
+* expanding   symbol:  audiodac_drv_ls.sym # of pins=7
+** sym_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_ls.sym
+** sch_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_ls.sch
+.subckt audiodac_drv_ls vdd_hi out_p out_n vdd_lo in_p in_n vss_lo
+*.PININFO in_p:I in_n:I out_p:O out_n:O vdd_hi:I vss_lo:I vdd_lo:I
+XM6 out_p out_n vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=10 nf=1 m=1
+XM5 out_n out_p vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=10 nf=1 m=1
+XM1 casc1 in_p vss_lo vss_lo sky130_fd_pr__nfet_01v8 L=0.15 W=20 nf=10 m=1
+XM2 casc2 in_n vss_lo vss_lo sky130_fd_pr__nfet_01v8 L=0.15 W=20 nf=10 m=1
+XM3 out_n vdd_lo casc1 vss_lo sky130_fd_pr__nfet_05v0_nvt L=0.9 W=50 nf=5 m=1
+XM4 out_p vdd_lo casc2 vss_lo sky130_fd_pr__nfet_05v0_nvt L=0.9 W=50 nf=5 m=1
+.ends
+
+
+* expanding   symbol:  audiodac_drv_latch.sym # of pins=4
+** sym_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_latch.sym
+** sch_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_latch.sch
+.subckt audiodac_drv_latch vdd_hi in_p in_n vss
+*.PININFO in_p:I in_n:I vdd_hi:I vss:I
+XM19 in_n in_p vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=20 nf=2 m=1
+XM18 in_n in_p vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=10 nf=2 m=1
+XM20 in_p in_n vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=20 nf=2 m=1
+XM17 in_p in_n vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=10 nf=2 m=1
+.ends
+
+
+* expanding   symbol:  audiodac_drv_lite_half.sym # of pins=5
+** sym_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_lite_half.sym
+** sch_path: /home/tim/gits/cheetah_v3_analog/dependencies/sky130_iic_ip__audiodac_v1/xschem/audiodac_drv_lite_half.sch
+.subckt audiodac_drv_lite_half vdd_hi in out vss crosscon
+*.PININFO in:I out:O vdd_hi:I vss:I crosscon:B
+XM10 out drv4 vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=100 nf=10 m=4
+XM9 out drv4 vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=100 nf=10 m=2
+XM8 drv4 crosscon vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=100 nf=10 m=1
+XM7 drv4 crosscon vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=50 nf=5 m=1
+XM6 crosscon drv2 vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=40 nf=4 m=1
+XM5 crosscon drv2 vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=20 nf=4 m=1
+XM4 drv2 drv1 vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=8 nf=2 m=1
+XM3 drv2 drv1 vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM2 drv1 in vdd_hi vdd_hi sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=2 m=1
+XM1 drv1 in vss vss sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+
+.end
