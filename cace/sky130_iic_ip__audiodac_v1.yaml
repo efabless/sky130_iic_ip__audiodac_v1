@@ -1,0 +1,79 @@
+#--------------------------------------------------------------
+# this is just an initial file supporting physical checks 
+#--------------------------------------------------------------
+
+name:           sky130_iic_ip__audiodac_drv
+description:    IIC-AUDIODAC
+PDK:            sky130A
+cace_format:    5.2
+
+authorship:
+  designer:         Harald Pretl
+  institution:     Johannes Kepler University
+  creation_date:    na
+  license:          Apache 2.0
+
+paths:
+  root:             ..
+  schematic:        xschem
+  magic:            mag
+  layout:           gds
+  netlist:          netlist
+  documentation:    docs
+
+parameters:
+  magic_area:
+    spec:
+      area:
+        display: Area
+        description: Total circuit layout area
+        unit: µm²
+        maximum:
+          value: any
+      width:
+        display: Width
+        description: Total circuit layout width
+        unit: µm
+        maximum:
+          value: any
+      height:
+        display: Height
+        description: Total circuit layout height
+        unit: µm
+        maximum:
+          value: any
+    tool:
+      magic_area
+
+  magic_drc:
+    description: Magic DRC
+    display: Magic DRC
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+      magic_drc:
+        gds_flatten: true
+
+  netgen_lvs:
+    description: Netgen LVS
+    display: Netgen LVS
+    spec:
+      lvs_errors:
+        maximum:
+          value: 0
+    tool:
+      netgen_lvs:
+        script: run_lvs.tcl
+
+  klayout_drc_full:
+    description: KLayout DRC full
+    display: KLayout DRC full
+    spec:
+      drc_errors:
+        maximum:
+          value: 0
+    tool:
+        klayout_drc:
+            args: ['-rd', 'feol=true', '-rd', 'beol=true', '-rd', 'offgrid=true']
